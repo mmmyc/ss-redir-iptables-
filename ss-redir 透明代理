@@ -817,6 +817,7 @@ iptables -t nat -A SHADOWSOCKS -d 223.27.184.0/255.255.248.0 -j RETURN
 iptables -t nat -A SHADOWSOCKS -d 223.223.176.0/255.255.240.0 -j RETURN
 iptables -t nat -A SHADOWSOCKS -d 223.223.192.0/255.255.240.0 -j RETURN
 ```
+路由表可参见[Best Route Table](https://github.com/ashi009/bestroutetb)
 ##清除自定义规则
 
  - 清空整个链 `iptables -F 链名`比如`iptables -F SHADOWSOCKS `
